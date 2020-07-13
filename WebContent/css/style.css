@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+#headermenu{
+	display:table;
+}
+
+.menu_item{
+	display:table-cell;
+	padding-right:20px;
+}
+
+a:link{
+	color:cornflowerBlue;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:blue;
+}
+
+a:VISITED {
+	color:indigo;
+}
+
+a:ACTIVE {
+	color:red;
+}
+
+#headermenu a:LINK {
+	font-size: larger;
+}
+
+.pageheading{
+	color:darkblue;
+}
+
+table{
+	border-collapse: collapse;
+	border:1px solid black;
+}
+
+th,td{
+	padding:7px;
+}
+
+th{
+	background:cornflowerBlue;
+	font-size: larger;
+	
+}
+
+table.form{
+	border:0;
+	padding:4px;
+}
+
+button{
+	padding:4px;
+	border-radius:5px;  
+}
+
+button[type=submit]{
+	font-weight: bold;
+}
+
+button:hover{
+	background: white;
+	color:green;
+}
+
+input{
+	border: 1px solid;
+	border-radius:5px;
+	border-color: green;
+	height: 17px; 
+}
+
+.error{
+	color:red;
+	font-weight: bold;
+	margin:7px;
+}
+
+.message{
+	font-style: italic;
+	color: darkblue;
+}
